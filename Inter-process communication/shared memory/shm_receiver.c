@@ -6,7 +6,7 @@
 int main() {
 	void * shm;
 	int shm_id, n;
-	shm_id = shmget(1234, 50, 0777);
+	shm_id = shmget(960, 50, 0777);
 	if (shm_id == -1) {
 		printf("Error\n");
 	} else {

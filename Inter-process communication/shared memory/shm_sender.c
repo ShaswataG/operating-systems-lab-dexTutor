@@ -8,7 +8,7 @@ int main() {
 	void* shm;
 	char buf[50];
 	int shm_id, n;
-	shm_id = shmget(1234, 50, 0777 | IPC_CREAT);
+	shm_id = shmget(60, 50, 0777 | IPC_CREAT);
 	if (shm_id == -1) {
 		printf("Error\n");
 	} else {
